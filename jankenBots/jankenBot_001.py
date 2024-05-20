@@ -4,8 +4,8 @@ from sklearn.tree import DecisionTreeClassifier
 
 pastHands = [0]*4
 
-handsCsvLink = 'C:/Users/rykts/Documents/JANKEN/bot/selectVictory/csv/hands.csv'
-resultCsvLink = 'C:/Users/rykts/Documents/JANKEN/bot/selectVictory/csv/result.csv'
+handsCsvLink = 'Data/hand_Data.csv'
+resultCsvLink = 'Data/result_Data.csv'
 
 def inputHand(Question):
     """ユーザーが出す手を取得する関数
